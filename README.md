@@ -10,7 +10,7 @@ All the team members loging in with the organisation's Google domain are automat
 
 1. The source sheet should adhere to the standard structure of a spreadsheet, with the following guidelines:
   a. Row 1 serves as the header, and all subsequent rows contain data.
-  b. Column headers include Activity ID, Task Name*, Start Date*, Finish Date*, Successor, Predecessor, and <Anything Else>. These headers begin from column 1 in sequential order. Column headers marked with an asterisk       are crucial for the program to generate taskbars on the roadmap. They must remain in their designated positions (Task Name*, Start Date*, Finish Date*, and Vertical Position/Level* in columns B, C, D, and E                respectively). Other columns can be rearranged as needed.
+  b. Column headers include Activity ID, Task Name*, Start Date*, Finish Date*, Successor, Predecessor, and <Anything Else>. These headers     begin from column 1 in sequential order. Column headers marked with an asterisk are crucial for the program to generate taskbars on the      roadmap. They must remain in their designated positions (Task Name*, Start Date*, Finish Date*, and Vertical Position/Level* in columns      B, C, D, and E respectively). Other columns can be rearranged as needed.
 2. Each cell/row should be filled with the user's chosen color for the task bar. The program reads the background color of individual row cells when reading the roadmap data and uses it to color the generated taskbars.
 3. Dates should follow one of these formats: either as a date object, like “July 1, 2027 8:00 AM” or “26-Sep-22”, or as a string, like “16-Jul-21 A”, where the initial part of the string contains the date to be used.
 4. As the template of the Google Slide used for generating the roadmap slide may vary, there is no pre-generated template. Hence, ensure that you create an appropriate template before running the program.
@@ -18,6 +18,8 @@ All the team members loging in with the organisation's Google domain are automat
 6. Each Google presentation should comprise only one slide. The designated template slide for drawing should be the sole slide in the template.
 7. The height of the grid on which the roadmap task bars will be drawn should be a minimum of 12.25 cm.
 8. Verify that the language setting for your slide is English (Canada) to ensure that the measurements used are in the metric system. If they appear in imperial format, confirm that the language is set to Canada and not the US.
+
+Link: https://github.com/Maheer1207/Project-GenerateProjectRoadMapOnSlideFromSheets/blob/f4d3c12774f29406d5e043f099ef5147072ee3f7/Steps%20to%20setup%20the%20environment%20for%20Add-on.pdf
 
 ## Steps to use the Add-on
 
@@ -30,3 +32,5 @@ All the team members loging in with the organisation's Google domain are automat
 7. Lastly, provide the Y-Coordinates indicating the starting point of the roadmap's taskbar, also using the 'Position' feature.
 
 That should generate a Google slide with the Roadmap.
+
+Link: https://github.com/Maheer1207/Project-GenerateProjectRoadMapOnSlideFromSheets/blob/f4d3c12774f29406d5e043f099ef5147072ee3f7/Steps%20to%20use%20the%20Add-on.pdf
