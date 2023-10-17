@@ -1,4 +1,4 @@
-# Generate RoadMap for Projects
+# Generate RoadMap for Projects (Video Demo: https://youtu.be/Qo8xihB8vJQ)
 
 This project was created to help a Project Management Team of an organization, where the team has all the resources like the tasks, start dates, end dates, predecessor, successor, as well as the chronology, which is also regraded as vertical levels or positions. The goal was to generate a roadmap of the project planning on Google Slides with the aid of the available formatted resources in Google Sheets. Following that, the script was expected to be available to all the team members with the expectation that some members might not be able to deal with the raw codes on Visual Studio or another IDE, so I had to append it as a Google Sheet Extension only for the members of the team.
 
